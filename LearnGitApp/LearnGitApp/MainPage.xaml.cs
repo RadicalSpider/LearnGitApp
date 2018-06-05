@@ -13,5 +13,10 @@ namespace LearnGitApp
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void buttomOk_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Saludo", "Hola", "Ok");
+        }
+    }
 }

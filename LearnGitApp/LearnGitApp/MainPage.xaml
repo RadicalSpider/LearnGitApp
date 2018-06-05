@@ -5,10 +5,8 @@
              x:Class="LearnGitApp.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Learn Xamarin and Git" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label x:Name="label1" Text="Hola Mundo"/>
+        <Button x:Name="buttomOk" Text="Ok" Clicked="buttomOk_Clicked"/>
     </StackLayout>
 
 </ContentPage>
